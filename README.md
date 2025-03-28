@@ -75,7 +75,7 @@ We welcome contributions! To get started:
 - Test your changes before submitting a PR.
 - Reference existing issues or create new ones before making changes.
 
-For detailed guidelines, check our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+For detailed guidelines, check our [documentation](https://github.com/Zainulabdeenoffical/Vector-Opreating-System/tree/main/Documentation) Folder
 
 ## 📜 License
 Vector OS is licensed under the [MIT License](LICENSE).
