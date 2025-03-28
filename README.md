@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zainulabdeenoffical/Vector-Opreating-System/refs/heads/main/Public/Images/Logo/OS-Logo.webp" alt="OS Logo" width="150" height="150"/>
+</p>
+
 # Vector Operating System
 
 ## 🚀 Introduction
