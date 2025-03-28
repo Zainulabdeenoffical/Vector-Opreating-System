@@ -22,20 +22,30 @@ Vector Operating System (Vector OS) is a cutting-edge, lightweight operating sys
 ## 📂 Project Structure
 ```
 Vector-Opreating-System/
-│-- kernel/              # Core kernel code
-│-- boot/                # Bootloader files
-│-- drivers/             # Device drivers (graphics, audio, etc.)
-│-- filesystem/          # Filesystem implementations
-│-- shell/               # Command-line interface (CLI)
-│-- user/                # User applications
-│-- docs/                # Documentation and guides
-│-- tests/               # Unit and integration tests
-│-- scripts/             # Build and deployment scripts
-│-- Makefile             # Build system
-│-- LICENSE              # License file
-│-- README.md            # This README file
+│── arch/          # Architecture-specific code (x86, ARM, RISC-V, etc.)
+│── block/         # Block layer (I/O scheduling, disk management)
+│── certs/         # Security certificates for kernel signing
+│── crypto/        # Cryptographic API and algorithms
+│── Documentation/ # Kernel documentation
+│── drivers/       # Device drivers (GPU, USB, network, etc.)
+│── fs/            # Filesystem implementations (ext4, btrfs, etc.)
+│── include/       # Header files for kernel-wide definitions
+│── init/          # Kernel initialization code
+│── ipc/           # Inter-process communication (signals, semaphores)
+│── kernel/        # Core kernel code (scheduling, system calls, etc.)
+│── lib/           # Generic library functions used by the kernel
+│── mm/            # Memory management (paging, heap, slab allocator)
+│── net/           # Networking stack (TCP/IP, routing, protocols)
+│── scripts/       # Utility scripts for building and configuring the kernel
+│── security/      # Security framework (SELinux, AppArmor)
+│── sound/         # Sound subsystem (ALSA, audio drivers)
+│── tools/         # Various kernel debugging and profiling tools
+│── usr/           # User-space utilities for initramfs
+│── virt/          # Virtualization (KVM, hypervisor support)
+│── Makefile       # Main build configuration file
+│── Kconfig        # Kernel configuration options
+│── README         # Basic information about the Linux kernel
 ```
-
 ## 📥 Installation Guide
 ### 1. Clone the Repository
 ```sh
